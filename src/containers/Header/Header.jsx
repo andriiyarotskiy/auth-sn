@@ -1,5 +1,4 @@
-import React, {useState, useContext} from 'react';
-import {Link} from "react-router-dom";
+import React, {useContext, useState} from 'react';
 import Modal from "../../components/Modal/Modal";
 import Login from "../AuthenticationPage/login/Login";
 import style from './Header.module.scss';
@@ -23,9 +22,9 @@ const Header = () => {
                 {isAuth
                     ? <button className={style.btn}
                               onClick={logOut}>Log Out</button>
-                    : <Link to="/login" onClick={() => setModalActive(true)}>
-                        <button className={style.btn}>Sign In</button>
-                    </Link>}
+                    : <button
+                        onClick={() => setModalActive(true)}
+                        className={style.btn}>Sign In</button>}
                 <Modal active={modalActive} setActive={setModalActive}>
                     <Login setActive={setModalActive}/>
                 </Modal>
