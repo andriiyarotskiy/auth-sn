@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/auth-sn/static/css/main.ddd8a980.chunk.css",
+    "main.js": "/auth-sn/static/js/main.153f6e0a.chunk.js",
+    "main.js.map": "/auth-sn/static/js/main.153f6e0a.chunk.js.map",
+    "runtime-main.js": "/auth-sn/static/js/runtime-main.174645db.js",
+    "runtime-main.js.map": "/auth-sn/static/js/runtime-main.174645db.js.map",
+    "static/js/2.c2a6c813.chunk.js": "/auth-sn/static/js/2.c2a6c813.chunk.js",
+    "static/js/2.c2a6c813.chunk.js.map": "/auth-sn/static/js/2.c2a6c813.chunk.js.map",
+    "index.html": "/auth-sn/index.html",
+    "static/css/main.ddd8a980.chunk.css.map": "/auth-sn/static/css/main.ddd8a980.chunk.css.map",
+    "static/js/2.c2a6c813.chunk.js.LICENSE.txt": "/auth-sn/static/js/2.c2a6c813.chunk.js.LICENSE.txt",
+    "static/media/fb_logo.bc0fdd26.svg": "/auth-sn/static/media/fb_logo.bc0fdd26.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.174645db.js",
+    "static/js/2.c2a6c813.chunk.js",
+    "static/css/main.ddd8a980.chunk.css",
+    "static/js/main.153f6e0a.chunk.js"
+  ]
+}
