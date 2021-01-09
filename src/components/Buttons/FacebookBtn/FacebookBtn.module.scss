@@ -1,0 +1,37 @@
+
+.facebookBtn {
+  position: relative;
+  width: 432px;
+  background: #227BEF;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+ text-align: center;
+
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  font-weight: 500;
+
+  padding: 24px 0;
+  cursor: pointer;
+  img {
+    position: absolute;
+    top: 19px;
+    bottom: 19px;
+    left: 24px;
+    right: 24px;
+  }
+}
+
+@media all and (max-width: 768px){
+  .facebookBtn {
+    width: 327px;
+  }
+}
+@media all and (max-width: 410px){
+  .facebookBtn {
+    width: 80vw;
+  }
+}
